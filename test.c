@@ -236,6 +236,7 @@ static void create_objects(void)
         cJSON_AddStringToObject(fld, "State", fields[i].state);
         cJSON_AddStringToObject(fld, "Zip", fields[i].zip);
         cJSON_AddStringToObject(fld, "Country", fields[i].country);
+        cJSON_AddStringToObject(fld, "Country2", fields[i].country);
     }
 
     /* cJSON_ReplaceItemInObject(cJSON_GetArrayItem(root, 1), "City", cJSON_CreateIntArray(ids, 4)); */
